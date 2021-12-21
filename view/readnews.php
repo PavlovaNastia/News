@@ -8,6 +8,8 @@ ob_start();
 ViewNews::ReadNews($n);
 
 
+echo "<br>";
+ViewComments::CommentsForm();
 
 $content = ob_get_clean();
 include_once 'view/layout.php';
