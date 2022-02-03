@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>NEWSPORTAL</title>
+        <title>Travelling portal</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel= "stylesheet" type ="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
@@ -12,22 +12,21 @@
     
 <nav class="one">
     <ul class="topmenu">
-    <li><a href="#">Kategooriad<i class="fa fa-angle-down"></i></a>
+    <li><a href="#">World<i class="fa fa-angle-down"></i></a>
         <ul class="submenu">
         <?php
               Controller::AllCategory();
         ?>
       </ul>
     </li>
-    <li><a href="testError">Info</a></li>
-    <li><a href="iwww">Info</a></li>
-    <li><a href="./">Stardileht</a></li>
-    <li><a href="registerForm">Register </a></li>
+    <li><a href="info">Info</a></li>
+    <li><a href="./">Home page</a></li>
+    <li><a href="registerForm">Registration</a></li>
     <div class="pull-right">
         <li>
             <form action="search">
-                <input type="text" name="otsi">
-                <input type="submit" value="Otsi">
+                <input type="text" name="search">
+                <input type="submit" value="Search">
             </form>
         </li>
     </div>  
@@ -47,6 +46,6 @@
     </div>
 </section>
         <hr>
-        <p style="display:block; text-align:center;">SKTVp20 2021 &copy</p>
+        <p style="display:block; text-align:center;">Site about travelling &copy</p>
     </body>
 </html>

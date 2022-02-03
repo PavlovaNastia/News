@@ -1,7 +1,7 @@
 <?php
 ob_start();
 ?>
-<h1>TOP 3 NEWS </h1>
+<h1>3 most popular countries for travelling </h1>
  <br>
  <?php
  ViewNews::NewsByCategory($arr);

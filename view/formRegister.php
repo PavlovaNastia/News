@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Register User</title>
+        <title>Registration</title>
         <link href="public/css/bootstrap.min.css" rel="stylesheet">
         <link href="public/css/login.css" rel="stylesheet">
     </head>
@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading"><h3>Register</h3></div>
+                <div class="panel-heading"><h3>Registration</h3></div>
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="registerAnswer">
                         <div class="form-group">
@@ -46,7 +46,7 @@
                                 </button>
                              </div>
                         </div>
-                        <p style="padding-top:10px;"><a href="./">Web site</a></p>
+                        <p style="padding-top:10px;"><a href="./">Back to web site</a></p>
                     </form>
                 </div>
             </div>
